@@ -54,4 +54,4 @@ if (blue !== 0){
   blue = Math.round(IntensityMax * Math.pow(blue * factor, gamma));
 }
 
-console.log(wavelength);
+document.writeln(wavelength);
