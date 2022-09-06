@@ -1,8 +1,14 @@
-let wavelength = getComputedStyle(html, body).color;
+var body = document.getElementsByTagName("body");
+let wavelength;
 let gamma = 0.80;
 let red;
 let green;
 let blue;
+
+if((body.style.color).contains('wl(')) {
+  wavelength = body.replace('wl(', '');
+  wavelength = body.replace(')', '');
+}
 
 IntensityMax = 255
 if((wavelength >= 380) && (wavelength<440)){
@@ -54,4 +60,4 @@ if (blue !== 0){
   blue = Math.round(IntensityMax * Math.pow(blue * factor, gamma));
 }
 
-document.writeln(wavelength);
+body.style.color = 'rgb( ' + red + ' , ' + green + ' , ' + ' , ' + blue + ' )';
