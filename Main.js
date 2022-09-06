@@ -4,8 +4,6 @@ let red;
 let green;
 let blue;
 
-getComputedStyle (header).color
-
 IntensityMax = 255
 if((wavelength >= 380) && (wavelength<440)){
   red = -(wavelength - 440) / (440 - 380);
