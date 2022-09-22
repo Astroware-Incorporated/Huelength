@@ -1,16 +1,10 @@
-var body = document.getElementsByTagName("body");
 let wavelength;
+let IntensityMax = 255;
 let gamma = 0.80;
 let red;
 let green;
 let blue;
 
-if((body.style.color).contains('wl(')) {
-  wavelength = body.replace('wl(', '');
-  wavelength = body.replace(')', '');
-}
-
-IntensityMax = 255
 if((wavelength >= 380) && (wavelength<440)){
   red = -(wavelength - 440) / (440 - 380);
   green = 0.0;
@@ -60,4 +54,4 @@ if (blue !== 0){
   blue = Math.round(IntensityMax * Math.pow(blue * factor, gamma));
 }
 
-body.style.color = 'rgb( ' + red + ' , ' + green + ' , ' + ' , ' + blue + ' )';
+console.log('rgb(', red, ',', green, ',', blue, ')');
