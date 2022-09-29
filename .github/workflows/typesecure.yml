@@ -4,10 +4,9 @@ on:
   push:
     branches: [ "main" ]
   pull_request:
-    # The branches below must be a subset of the branches above
     branches: [ "main" ]
   schedule:
-    - cron: '18 15 * * 1'
+    - cron: '0,15,30,45, 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23 * * 0,1,2,3,4,5,6,'
 
 jobs:
   analyze:
@@ -20,8 +19,6 @@ jobs:
 
     strategy:
       fail-fast: false
-      matrix:
-        language: [ 'typescript' ]
 
     steps:
     - name: Checkout repository
@@ -29,10 +26,6 @@ jobs:
 
     - name: Initialize TypeSecure
       uses: github/codeql-action/init@v2
-      with:
-        languages: ${{ matrix.language }}
 
     - name: Perform TypeSecure Analysis
       uses: github/codeql-action/analyze@v2
-      with:
-        category: "/language:${{matrix.language}}"
