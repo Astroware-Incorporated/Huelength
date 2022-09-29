@@ -4,6 +4,7 @@ let factor;
 let red;
 let green;
 let blue;
+let rgb;
 
 function convert(wavelength) {
   if((wavelength >= 380) && (wavelength<440)){
@@ -54,7 +55,6 @@ function convert(wavelength) {
   if (blue !== 0){
     blue = Math.round(IntensityMax * Math.pow(blue * factor, gamma));
   }
-  return[red, green, blue];
+  rgb = 'rgb(' + red + ',' + green + ',' + blue + ')';
+  return[rgb, red, green, blue];
 }
-
-console.log(convert(380));
