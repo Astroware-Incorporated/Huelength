@@ -1,7 +1,16 @@
 {
-    "name": "wavelength",
-    "displayName": "Wavelength",
-    "version": "1.0.0",
-    "author": "Kelvin-Inc",
-    "publisher": "Kelvin Inc."
+  "name": "@kelvin-labs/wavelength-to-color",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kelvin-Labs/wavelength-to-color.git"
+  },
+  "author": "Kelvin-Labs",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Kelvin-Labs/wavelength-to-color/issues"
+  },
+  "homepage": "https://github.com/Kelvin-Labs/wavelength-to-color#readme"
 }
