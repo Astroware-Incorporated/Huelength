@@ -1,16 +1,19 @@
 {
-  "name": "@kelvin-labs/wavelength-to-color",
+  "name": "@kelvin-labs/wavelength.js",
   "version": "1.0.0",
-  "description": "",
+  "description": "Wavelength is a revolutionary JavaScript library, that can take a wavelength in nanometers, and convert it into a color in the RGB format.",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Kelvin-Labs/wavelength-to-color.git"
+    "url": "git+https://github.com/Kelvin-Labs/Wavelength.js.git"
   },
   "author": "Kelvin-Labs",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Kelvin-Labs/wavelength-to-color/issues"
+    "url": "https://github.com/Kelvin-Labs/Wavelength.js/issues"
   },
-  "homepage": "https://github.com/Kelvin-Labs/wavelength-to-color#readme"
+  "homepage": "https://github.com/Kelvin-Labs/Wavelength.js#readme",
+  "scripts": {
+    "test": "exit 0"
+  }
 }
