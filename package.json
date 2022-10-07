@@ -15,5 +15,8 @@
   "homepage": "https://github.com/Kelvin-Labs/Wavelength.js#readme",
   "scripts": {
     "test": "exit 0"
+  },
+  "publishConfig": {
+    "@Kelvin-Labs:registry": "https://npm.pkg.github.com"
   }
 }
