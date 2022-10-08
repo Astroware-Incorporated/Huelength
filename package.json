@@ -1,7 +1,7 @@
 {
   "name": "@kelvin-labs/wavelength.js",
   "version": "1.0.0",
-  "description": "Wavelength is a revolutionary JavaScript library, that can take a wavelength in nanometers, and convert it into a color in the RGB format.",
+  "description": "Wavelength is a revolutionary JavaScript program, that can take a wavelength in nanometers, and convert it into a color in the RGB format.",
   "main": "index.js",
   "repository": {
     "type": "git",
@@ -16,7 +16,4 @@
   "scripts": {
     "test": "exit 0"
   },
-  "publishConfig": {
-    "@Kelvin-Labs:registry": "https://npm.pkg.github.com"
-  }
 }
