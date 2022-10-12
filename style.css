@@ -1,0 +1,33 @@
+html, body {
+    background-color: #222;
+    text-align: center;
+    padding: 10px;
+}
+
+h1 {
+    color: white;
+    font-size: 36px;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  appearance: none;
+  margin: 0;
+}
+
+input {
+    width: 40%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    border: 0px;
+    border-radius: 5px;
+}
+
+#display {
+    color: null;
+    border: 0px;
+    border-radius: 5px;
+}

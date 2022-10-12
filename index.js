@@ -1,12 +1,12 @@
-const gamma = 0.80;
-const IntensityMax = 255;
+let wavelength = document.getElementById('wavelength');
+const button = document.getElementsByTagName('button');
+const display = document.getElementById('display');
 let factor;
 let red;
 let green;
 let blue;
-let rgb;
 
-export function convert(wavelength) {
+button.onclick = function() {
   if((wavelength >= 380) && (wavelength<440)){
     red = -(wavelength - 440) / (440 - 380);
     green = 0.0;
@@ -47,14 +47,14 @@ export function convert(wavelength) {
     factor = 0.0;
   };
   if (red !== 0){
-    red = Math.round(IntensityMax * Math.pow(red * factor, gamma));
+    red = Math.round(255 * Math.pow(red * factor, 0.80));
   }
   if (green !== 0){
-    green = Math.round(IntensityMax * Math.pow(green * factor, gamma));
+    green = Math.round(255 * Math.pow(green * factor, 0.80));
   }
   if (blue !== 0){
-    blue = Math.round(IntensityMax * Math.pow(blue * factor, gamma));
+    blue = Math.round(255 * Math.pow(blue * factor, 0.80));
   }
-  rgb = 'rgb(' + red + ', ' + green + ', ' + blue + ')';
-  return rgb;
+
+display.color = 'rgb(' + red + ',' + green + ',' + blue + ')';
 }

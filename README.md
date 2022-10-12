@@ -1,3 +1,3 @@
 # Wavelength
 
-Wavelength is a revolutionary JavaScript library, that can take a wavelength in nanometers (Because all light travels in waves, and all waves have a wavelength.), and convert it into a color in the RGB format.
+Wavelength is a revolutionary Electron app, that can take a wavelength in nanometers (Because all light travels in waves, and all waves have a wavelength.), and convert it into a color in the RGB format.
