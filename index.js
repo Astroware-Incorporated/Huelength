@@ -1,4 +1,4 @@
-export function convert(wavelength){
+function convert(wavelength){
   factor, red, green, blue;
   if((wavelength >= 380) && (wavelength<440)){
     red = -(wavelength - 440) / (440 - 380);
