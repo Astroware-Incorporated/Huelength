@@ -1,23 +1,16 @@
 {
-  "name": "wavelength",
+  "name": "huelength",
   "version": "1.0.0",
   "description": "",
   "main": "main.js",
-  "scripts": {
-    "start": "electron ."
-  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Kelvin-Labs/Wavelength.git"
+    "url": "git+https://github.com/Kelvin-Labs/Huelength.git"
   },
   "author": "Kelvin-Labs",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Kelvin-Labs/Wavelength/issues"
+    "url": "https://github.com/Kelvin-Labs/Huelength/issues"
   },
-  "homepage": "https://github.com/Kelvin-Labs/Wavelength#readme",
-  "devDependencies": {
-    "@electron-forge/cli": "^6.0.0-beta.67",
-    "electron": "^21.1.0"
-  }
+  "homepage": "https://github.com/Kelvin-Labs/Huelength#readme"
 }
