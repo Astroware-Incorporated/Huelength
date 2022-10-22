@@ -1,6 +1,8 @@
 # Huelength
 
-Huelength is a crazy JavaScript library, that can take a wavelength in nanometers (Because all light travels in waves, and all waves have a wavelength.), and convert it into a color in the RGB format.
+## What is it?
+
+Huelength is a crazy, but brilliant JavaScript library for all those physics geeks out there. the cool thing about it is that it can prosses a wavelength between 360 and 760 nanometers long, and return a color encoded in the RGB format.
 
 ## Install
 
