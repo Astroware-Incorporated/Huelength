@@ -1,5 +1,5 @@
 module.exports.convert = function(wavelength) {
-    factor, red, green, blue;
+    var factor, red, green, blue;
     if((wavelength >= 380) && (wavelength<440)){
       red = -(wavelength - 440) / (440 - 380);
       green = 0.0;
@@ -49,5 +49,5 @@ module.exports.convert = function(wavelength) {
       blue = Math.round(255 * Math.pow(blue * factor, 0.80));
     }
     
-    return 'rgb(' + red + ',' + green + ',' + blue + ')';
+    return 'rgb( ' + red + ' , ' + green + ' , ' + blue + ' )';
   };

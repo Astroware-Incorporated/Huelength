@@ -1,7 +1,7 @@
 {
   "name": "huelength",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.3",
+  "description": "Huelength is a crazy JavaScript library, that can take a wavelength in nanometers (Because all light travels in waves, and all waves have a wavelength.), and convert it into a color in the RGB format.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
