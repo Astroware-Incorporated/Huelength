@@ -1,6 +1,6 @@
 {
   "name": "huelength",
-  "version": "1.0.4",
+  "version": "1.0.0",
   "description": "Huelength is a crazy, but brilliant JavaScript library for all those physics geeks out there. the cool thing about it is that it can prosses a wavelength between 360 and 760 nanometers long, and return a color encoded in the RGB format.",
   "main": "index.js",
   "scripts": {
