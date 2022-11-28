@@ -7,7 +7,7 @@ Huelength is a crazy, but brilliant JavaScript library for all those physics gee
 ## Install
 
 ```sh
-npm i huelength
+$npm i huelength
 ```
 
 ## Usage
